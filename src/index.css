@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .but-hover {
+    @apply border-[2px] hover:bg-slate-50 hover:text-black ease-in duration-200 cursor-pointer border-zinc-600 rounded-full;
+  }
+}
+
+/* .scroller-in-1 {
+  animation: textRunning 10s linear infinite;
+}
+
+@keyframes textRunning {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+} */
